@@ -1019,7 +1019,7 @@
               <v-btn icon="mdi-facebook" color="red-darken-2" class="mr-2 social-btn"></v-btn>
               <v-btn icon="mdi-twitter" color="red-darken-2" class="mr-2 social-btn"></v-btn>
               <v-btn icon="mdi-instagram" color="red-darken-2" class="mr-2 social-btn"></v-btn>
-              <v-btn icon="mdi-discord" color="red-darken-2" class="social-btn"></v-btn>
+              <v-btn icon="mdi-twitch" color="red-darken-2" class="social-btn"></v-btn>
             </div>
           </v-col>
           
@@ -1865,3 +1865,4 @@ const resetFilters = () => {
 }
 
 </style>
+
