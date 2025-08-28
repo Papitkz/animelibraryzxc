@@ -1152,12 +1152,12 @@ const seasonOptions = [
 const getProxiedImageUrl = (url) => {
   console.log(url,'haha');
   
-  if (!url) return '';
+  // if (!url) return '';
   
   // If the URL is already from a proxy or a different domain, return as is
-  if (url.includes('proxy.') || url.includes('images.weserv.nl')) {
-    return url;
-  }
+  // if (url.includes('proxy.') || url.includes('images.weserv.nl')) {
+  //   return url;
+  // }
   
   // Use a proxy service to bypass the block
   // Using images.weserv.nl with higher quality settings
