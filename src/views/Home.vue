@@ -1153,13 +1153,11 @@ const getProxiedImageUrl = (url) => {
   if (!url) return '';
   
   // If the URL is already from a proxy or a different domain, return as is
-  if (url.includes('proxy.') || url.includes('images.weserv.nl')) {
-    return url;
-  }
+  
   
   // Use a proxy service to bypass the block
   // Using images.weserv.nl with higher quality settings
-  return `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=600&h=900&fit=cover&q=80`;
+  return url;
 };
 
 // YouTube embed URL function
@@ -1865,4 +1863,5 @@ const resetFilters = () => {
     font-size: 0.75rem;
   }
 }
+
 </style>
